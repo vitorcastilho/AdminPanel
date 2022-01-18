@@ -10,19 +10,21 @@ export default function WidgetLg() {
       <div className="widgetLg">
         <h3 className="widgetLgTitle">Latest Trasactions</h3>
         <table className="widgetLgTable">
+          <tbody>
           <tr className="widgetLgTr">
             <th className="widgetLgTh">Customer</th>
             <th className="widgetLgTh">Date</th>
             <th className="widgetLgTh">Amount</th>
             <th className="widgetLgTh">Status</th>
           </tr>
+
           <tr className="widgetLgTr">
             <td className="widgetLgUser">
               <img
                 src="https://media-exp1.licdn.com/dms/image/C4D03AQEfw-oJUnmERw/profile-displayphoto-shrink_200_200/0/1630189966113?e=1647475200&v=beta&t=kyPiThTWcUzWJ_LXidL7RsBOvdDtrDFod1I5fEM-JMk"
                 alt=""
                 className="widgetLgImg"
-              />
+                />
               <span className="widgetLgName">Vitor Castilho</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -37,7 +39,7 @@ export default function WidgetLg() {
                 src="https://media-exp1.licdn.com/dms/image/C4D03AQEfw-oJUnmERw/profile-displayphoto-shrink_200_200/0/1630189966113?e=1647475200&v=beta&t=kyPiThTWcUzWJ_LXidL7RsBOvdDtrDFod1I5fEM-JMk"
                 alt=""
                 className="widgetLgImg"
-              />
+                />
               <span className="widgetLgName">Vitor Castilho</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -67,7 +69,7 @@ export default function WidgetLg() {
                 src="https://media-exp1.licdn.com/dms/image/C4D03AQEfw-oJUnmERw/profile-displayphoto-shrink_200_200/0/1630189966113?e=1647475200&v=beta&t=kyPiThTWcUzWJ_LXidL7RsBOvdDtrDFod1I5fEM-JMk"
                 alt=""
                 className="widgetLgImg"
-              />
+                />
               <span className="widgetLgName">Vitor Castilho</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -82,7 +84,7 @@ export default function WidgetLg() {
                 src="https://media-exp1.licdn.com/dms/image/C4D03AQEfw-oJUnmERw/profile-displayphoto-shrink_200_200/0/1630189966113?e=1647475200&v=beta&t=kyPiThTWcUzWJ_LXidL7RsBOvdDtrDFod1I5fEM-JMk"
                 alt=""
                 className="widgetLgImg"
-              />
+                />
               <span className="widgetLgName">Vitor Castilho</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -97,7 +99,7 @@ export default function WidgetLg() {
                 src="https://media-exp1.licdn.com/dms/image/C4D03AQEfw-oJUnmERw/profile-displayphoto-shrink_200_200/0/1630189966113?e=1647475200&v=beta&t=kyPiThTWcUzWJ_LXidL7RsBOvdDtrDFod1I5fEM-JMk"
                 alt=""
                 className="widgetLgImg"
-              />
+                />
               <span className="widgetLgName">Vitor Castilho</span>
             </td>
             <td className="widgetLgDate">2 Jun 2021</td>
@@ -106,6 +108,7 @@ export default function WidgetLg() {
               <Button type="Pending" />
             </td>
           </tr>
+                </tbody>
         </table>
       </div>
     );

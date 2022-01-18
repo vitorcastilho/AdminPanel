@@ -14,7 +14,7 @@ export default function NewProduct() {
               alt=""
               className="addProductUploadImg"
             />
-            <label for="file">
+            <label htmlFor="file">
               <Publish />
             </label>
             <input type="file" id="file" style={{ display: "none" }} />
